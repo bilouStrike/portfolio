@@ -14,7 +14,10 @@ import {
   gym24,
   sushi,
   hoo,
-  uikit
+  uikit,
+  github,
+  linkedin,
+  gmail
 } from "../assets";
 
 export const navLinks = [
@@ -253,4 +256,19 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, projects };
+const contact = [
+  {
+    icon: github,
+    link: "https://github.com/bilouStrike",
+  },
+  {
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/bilal-dif-1066ab5b/",
+  },
+  {
+    icon: gmail,
+    link: "mailto: belal17dif@gmail.com",
+  }
+];
+
+export { technologies, experiences, projects, contact };

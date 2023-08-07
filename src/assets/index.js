@@ -22,6 +22,8 @@ import gym24 from "./tech/gym.gif";
 import sushi from "./tech/sushi.gif";
 import hoo from "./tech/hoo.gif";
 import uikit from "./tech/ui-kit.png";
+import linkedin from "./linkedin.png";
+import gmail from "./gmail.png";
 
 export {
   logo,
@@ -45,5 +47,7 @@ export {
   gym24,
   sushi,
   hoo,
-  uikit
+  uikit,
+  linkedin,
+  gmail
 };

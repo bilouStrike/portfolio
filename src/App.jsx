@@ -8,6 +8,7 @@ import {
   Tech,
   Works,
 } from "./components";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Tech />
         <Experience />
         <Works />
+        <Contact />
       </div>
     </BrowserRouter>
   );
