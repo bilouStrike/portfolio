@@ -18,6 +18,10 @@ import typescript from "./tech/typescript.png";
 import algo from "./tech/algo.gif";
 import memory from "./tech/memory.png";
 import sudoku from "./tech/sudoku.png";
+import gym24 from "./tech/gym.gif";
+import sushi from "./tech/sushi.gif";
+import hoo from "./tech/hoo.gif";
+import uikit from "./tech/ui-kit.png";
 
 export {
   logo,
@@ -38,4 +42,8 @@ export {
   algo,
   memory,
   sudoku,
+  gym24,
+  sushi,
+  hoo,
+  uikit
 };

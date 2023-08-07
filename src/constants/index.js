@@ -6,13 +6,15 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
   algo,
   sudoku,
   memory,
+  gym24,
+  sushi,
+  hoo,
+  uikit
 } from "../assets";
 
 export const navLinks = [
@@ -23,11 +25,7 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  }
 ];
 
 const technologies = [
@@ -58,14 +56,6 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "git",
@@ -152,7 +142,7 @@ const projects = [
       },
     ],
     image: algo,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/bilouStrike/VisualSort",
   },
   {
     name: "Sudoku game",
@@ -169,7 +159,7 @@ const projects = [
       },
     ],
     image: sudoku,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/bilouStrike/sudoku-app",
   },
   {
     name: "Memory Game",
@@ -190,7 +180,76 @@ const projects = [
       },
     ],
     image: memory,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/bilouStrike/memory-game",
+  },
+  {
+    name: "GYM24 - Landing page",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym24,
+    source_code_link: "https://github.com/bilouStrike/gym-landing-page",
+  },
+  {
+    name: "Sushi - Landing page",
+    tags: [
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sushi,
+    source_code_link: "https://github.com/bilouStrike/sushi-landing-page",
+  },
+  {
+    name: "Hoo Bank - Landing page",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoo,
+    source_code_link: "https://github.com/bilouStrike/hoo-bank-landing-page",
+  },
+  {
+    name: "UI-kit - ongoing",
+    description: "a versatile and powerful collection of meticulously designed components and resources that empower developers to create stunning, responsive, and interactive user interfaces with ease",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: uikit,
+    source_code_link: "https://github.com/hiringkanban/frontend",
   },
 ];
 
